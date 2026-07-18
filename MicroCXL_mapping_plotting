@@ -29,4 +29,10 @@ cooler-0.8.9 cload pairix -p 8 genome_name.genome:100 pairs_file_name.pairs.gz c
 cooler-0.8.9 zoomify --balance -p 8 cool_file_name.cool
 
 #this balances the .cool file and creates a balanced .cool file for maps with repeats
+#for rDNA
+cooler-0.8.9 balance -p 8 --mad-max 9 cool_file_name.cool
+
+#this balances the .cool file and creates a balanced .cool file for maps with repeats
+#for centromeres
 cooler-0.8.9 balance -p 8 cool_file_name.cool
+
