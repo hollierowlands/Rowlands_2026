@@ -1,0 +1,5 @@
+#first need to create a matrix using computeMatrix
+computeMatrix reference-point -S PATH_TO/A.bw PATH_TO/B.bw -R feature_list.bed -a 400 -b 400 --outFileName matrix_A_B.gz
+
+#plot pileups
+plotProfile -m matrix_A_B.gz --plotType=lines --perGroup -out output_file_name.svg
