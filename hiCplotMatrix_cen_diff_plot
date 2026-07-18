@@ -1,0 +1,9 @@
+#convert from cool to h5 to be compatible with HiCPlotMatrix
+hicConvertFormat --matrices matrix_A.cool --outFileName matrix_A.h5 --inputFormat cool --outputFormat h5
+hicConvertFormat --matrices matrix_B.cool --outFileName matrix_B.h5 --inputFormat cool --outputFormat h5
+
+#calculate difference
+hicCompareMatrices --matrices matrix_B.h5 matrix_B.h5 --outFileName diff_name.h5 --operation diff
+
+#plot the difference plot
+hicPlotMatrix --matrix diff_name.h5 --clearMaskedBins --region Chr:X-Y --vMin -3 --vMax 3 --colorMap coolwarm_r --outFileName plot_name.svg
