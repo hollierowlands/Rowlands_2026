@@ -1,0 +1,19 @@
+##description: custom genome file for 2 reps of the rDNA rdna_v4
+##provider: H Rowlands
+##contact: hrowland@ed.ac.uk
+##format: gtf
+##date: 5 May 2026
+III	.	gene	1	1824	.	+	.	gene_id "18S"; gene_name "18S";
+III	.	gene	2255	2419	.	+	.	gene_id "5.8S"; gene_name "18S";
+III	.	gene	2720	6204	.	+	.	gene_id "28S"; gene_name "28S";
+III	.	gene	7423	8458	.	+	.	gene_id "origin"; gene_name "origin";
+III	.	gene	10890	12731	.	+	.	gene_id "18S2"; gene_name "18S";
+III	.	gene	13144	13308	.	+	.	gene_id "5.8S2"; gene_name "18S";
+III	.	gene	13609	17093	.	+	.	gene_id "28S2"; gene_name "28S";
+III	.	gene	18312	19347	.	+	.	gene_id "origin2"; gene_name "origin";
+III	.	gene	6509	6525	.	+	.	gene_id "rfb3"; gene_name "rfb";
+III	.	gene	6692	6708	.	+	.	gene_id "rfb2"; gene_name "rfb";
+III	.	gene	6927	6946	.	+	.	gene_id "rfb1"; gene_name "rfb";
+III	.	gene	17398	17414	.	+	.	gene_id "rfb3_2"; gene_name "rfb";
+III	.	gene	17581	17597	.	+	.	gene_id "rfb2_2"; gene_name "rfb";
+III	.	gene	17816	17835	.	+	.	gene_id "rfb1_2"; gene_name "rfb";
